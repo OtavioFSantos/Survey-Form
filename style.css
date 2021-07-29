@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(180deg, #4421b2, #5e17eb, #8c52f0);
+  color: #f5f5ef;
+}
+
+header{
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#description{
+  font-style: italic;
+  margin-top: -15px;
+}
+
+form{
+  background-color: #2d1674;
+  margin: auto;
+  max-width: 45rem;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  border-radius: 2%;
+}
+
+div{
+  margin-bottom: 1rem;
+}
+
+input, textarea, select{
+  width: 100%;
+  border: none;
+  border-radius: 2%;
+}
+
+input, select{
+  height: 1.5rem;
+}
+
+textarea{
+  height: 5rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 0;
+  font-size: 20px;
+  position: relative;
+  top: 0.4rem;
+}
+
+button{
+  width: 100%;
+  height: 1.7rem;
+  margin-bottom: -0.4rem;
+  cursor: pointer;
+  background-color: #8c52f0;
+  border: none;
+  color: #f5f5ef;
+  font-weight: bold;
+}
+
+button:hover{
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes background-color{
+  100% {
+    background-color: #2d1674;
+  }
+}
